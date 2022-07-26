@@ -505,6 +505,61 @@ footer .copyright{
 }
 
 /* MEDIA QUERY*/
+@media(max-width:950px){
+    .section-p1{
+        padding: 50px;
+    }
+    #header{
+        padding: 40px 30px;
+    }
+    h1{
+        font-size: 100px;
+    }
+    h2{
+        font-size: 50px;
+    }
+    #hero{
+        background-image: url("img/hero9.png");
+        padding: 0 50px;
+        background-position: 55%;
+    }
+    #feature{
+        justify-content: space-between;
+    }
+    #feature .fe-box{
+        width: 300px;
+        margin: 0 0 15px 0;
+    }
+    #product1 .pro{
+        width: 100%;
+    }
+    #banner{
+        height: 40vh;
+    }
+    #sm-banner .banner-box{
+        height: 40vh;
+        width: 100%;
+    }
+    #sm-banner .banner-box2{
+        margin-top: 20px;
+    }
+    #banner3{
+        padding: 0 20px;
+    }
+    #banner3 .banner-box{
+        width: 100%;
+    }
+    #newsletter{
+        padding: 40px 20px;
+    }
+    #newsletter .form{
+        width: 100%;
+    }
+    footer .copyright{
+        text-align: start;
+    }
+    
+}
 
 @media(max-width:799px){
     .section-p1{
