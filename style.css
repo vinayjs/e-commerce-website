@@ -176,7 +176,7 @@ body{
 #feature .fe-box{
     width: 180px;
     text-align: center;
-    padding: 25px 15px;
+    padding: 5;
     box-shadow: 20px 20px 34px rgba(0,0,0,0.03);
     border: 1px solid #cce7d0;
     border-radius: 4px;
@@ -556,15 +556,15 @@ footer .copyright{
     #hero{
         background-image: url("img/hero9.png");
         padding: 0 50px;
-        background-position: 45%;
+        background-position: 55%;
         height: 70vh;
     }
     #feature{
         justify-content: space-between;
     }
     #feature .fe-box{
-        width: 300px;
-        margin: 0 0 15px 0;
+        width: 255px;
+        margin: 0 0 35px 55px;
     }
     #product1 .pro{
         width: 100%;
@@ -751,15 +751,28 @@ footer .copyright{
     }
     #hero{
         background-image: url("img/hero9.png");
-        padding: 0 20px;
+        padding: 20px;
         background-position: 55%;
+    }
+    #hero h4{
+        font-size: small;
+        font-weight: bold;
+        padding-top: 40px;
+        padding-bottom: 5px;
+    }
+    #hero h1{
+        color: #088178;
+        font-size: 20px
+    }
+    #hero h2{
+        font-size: 25px;
     }
     #feature{
         justify-content: space-between;
     }
     #feature .fe-box{
-        width: 155px;
-        margin: 0 0 15px 0;
+        width: 255px;
+        margin: 0 0 35px 45px;
     }
     #product1 .pro{
         width: 100%;
@@ -788,5 +801,6 @@ footer .copyright{
     footer .copyright{
         text-align: start;
     }
+   
     
-}
+};
