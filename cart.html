@@ -19,8 +19,8 @@
             <li><a  href="shop.html">Shop</a></li>
             <li><a   href="blog.html">Blog</a></li>
             <li><a   href="about.html">About</a></li>
-            <li><a  class="active" href="contact.html">Contact</a></li>
-            <li id="lg-bag"><a href="cart.html" aria-label="navbar"><i class="fab fa-bitbucket"></i></a></li>
+            <li><a   href="contact.html">Contact</a></li>
+            <li id="lg-bag"><a class="active" href="cart.html" aria-label="navbar"><i class="fab fa-bitbucket"></i></a></li>
             <a href="#"  id='close'aria-label="navbar"><i class="far fa-window-close"></i></a>
             
         </ul>
@@ -37,79 +37,86 @@
 
     </section>
 
-    <section id="contact-details" class="section-p1">
-        <div class="details">
-            <span>Get in Touch</span>
-            <h2>Visit one of our agnency locations or contact us today</h2>
-            <h3>Head Office</h3>
-            <div>
-                <li>
-                    <i class="far fa-address-book"></i>
-                    <p> 32,JC ROAD ,BANGALORE ,INDIA</p>
-                </li>
-                <li>
-                    <i class="far fa-envelope"></i>
-                    <p> xyz123@cara.com</p>
-                </li>
-                <li>
-                    <i class="fas fa-phone-alt"></i>
-                    <p> +91-956164484</p>
-                </li>
-                <li>
-                    <i class="far fa-clock"></i>
-                    <p> Monday to Saturday : 09:00am to 16:00pm</p>
-                </li>
-            </div>
-        </div>
-        <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.51501450494!2d76.93517992695311!3d8.546372700000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05b96edbdf3427%3A0xea485ff45cb08996!2sSarvodaya%20Vidyalaya%20(ICSE)!5e0!3m2!1sen!2sin!4v1659096012480!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-        </div>
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                       <a href="#"> <i class="far fa-times-circle"></i></a>
+                    </td>
+                    <td><img src="img/products/f1.jpg" alt=""></td>
+                    <td>Printed Shirts</td>
+                    <td>$65</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$112.5</td>
+                </tr>
+                <tr>
+                    <td>
+                       <a href="#"> <i class="far fa-times-circle"></i></a>
+                    </td>
+                    <td><img src="img/products/f2.jpg" alt=""></td>
+                    <td>Cartoon Astronaut Shirts</td>
+                    <td>$75</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$112.5</td>
+                </tr>
+                <tr>
+                    <td>
+                       <a href="#"> <i class="far fa-times-circle"></i></a>
+                    </td>
+                    <td><img src="img/products/f3.jpg" alt=""></td>
+                    <td>Printed Shirts</td>
+                    <td>$72</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$112.5</td>
+                </tr>
+            </tbody>
+        </table>
     </section>
     
-    <section id="form-details">
-        <form action="">
-            <span>Leave a Message</span>
-            <h2>We love to hear from you</h2>
-            <input type="text"placeholder="Your Name">
-            <input type="text"placeholder="E-mail">
-            <input type="text"placeholder="Subject">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <button class="normal">Submit</button>
-        </form>
-
-        <div class="people">
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply coupon</h3>
             <div>
-                <img src="img/people/1.png" alt="">
-                <p><span>ROBERT</span>Senior Marketing Officer <br>Phone: +91-8955487411 <br> E-mail:sdsds4154@exp.com</p>
+                <input type="text" placeholder ="Enter Your Coupon">
+                <button class="normal">Apply</button>
             </div>
 
-             <div>
-                <img src="img/people/2.png" alt="">
-                <p><span>Luis</span>Senior Sales Officer <br>Phone: +91-8955487411 <br> E-mail:sdsds4154@exp.com</p>
-            </div>
-            
-            <div>
-                <img src="img/people/3.png" alt="">
-                <p><span>Maria</span>Senior Customer Relations Officer <br>Phone: +91-8955487411 <br> E-mail:sdsds4154@exp.com</p>
-            </div>
+        </div>
+
+
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td> #118.25</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$110</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to Checkout</button>
         </div>
     </section>
 
-   
-    <section id="newsletter"class="section-p1 section-m1">
-        <div class="newstext">
-            <h4>Sign Up For Newsletters</h4>
-            <p>Get E-mail updates about our latest shop and <span>Special Offers</span></p>
-        </div>
-        <div class="form">
-            <input type="text" placeholder="Your email address">
-            <button class="normal">Sign Up</button>
-        </div>
-    </section>
 
-    
- 
+
     <footer class="section-p1">
         <div class="col">
             <img class= "logo" src="img/logo.png" alt="">
